@@ -1,0 +1,76 @@
+{
+  "totalNodes": 6,
+  "nodeTypeCounts": {
+    "VariableDeclaration": 3,
+    "ExpressionStatement": 3
+  },
+  "trailingText": "",
+  "nodes": [
+    {
+      "type": "VariableDeclaration",
+      "start": 0,
+      "end": 35,
+      "before": "",
+      "text": "const express = require('express');",
+      "raka": null,
+      "poka": "express",
+      "routePath": null,
+      "routeHandler": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 36,
+      "end": 57,
+      "before": "\n",
+      "text": "const app = express()",
+      "raka": null,
+      "poka": "app",
+      "routePath": null,
+      "routeHandler": null
+    },
+    {
+      "type": "VariableDeclaration",
+      "start": 58,
+      "end": 75,
+      "before": "\n",
+      "text": "const port = 3000",
+      "raka": null,
+      "poka": "port",
+      "routePath": null,
+      "routeHandler": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 77,
+      "end": 135,
+      "before": "\n\n",
+      "text": "app.get('/', (req, res) => {\n  res.send('Hello World!')\n})",
+      "raka": null,
+      "poka": null,
+      "routePath": "/",
+      "routeHandler": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 137,
+      "end": 204,
+      "before": "\n\n",
+      "text": "app.post('/', (req, res) => {\n  res.send('Got a POST request');\n});",
+      "raka": null,
+      "poka": null,
+      "routePath": "/",
+      "routeHandler": null
+    },
+    {
+      "type": "ExpressionStatement",
+      "start": 206,
+      "end": 288,
+      "before": "\n\n",
+      "text": "app.listen(port, () => {\n  console.log(`Example app listening on port ${port}`)\n})",
+      "raka": null,
+      "poka": null,
+      "routePath": null,
+      "routeHandler": null
+    }
+  ]
+}
